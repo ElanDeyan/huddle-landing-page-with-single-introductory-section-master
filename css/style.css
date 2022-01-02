@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/* line 1, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/scss/_resets.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 1, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+body {
+  font-family: 'Open sans', Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

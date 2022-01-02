@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+// Colors
+$primary-violet-color: #674baf;
+$primary-soft-magenta-color: #e882e8;
+
+//Font-weights
+$font-weights: (
+    'regular': 400,
+    'semi-bold': 600
+);
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name );
+}
