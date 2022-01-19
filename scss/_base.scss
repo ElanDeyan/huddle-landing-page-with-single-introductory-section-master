@@ -6,21 +6,44 @@ html {
 
     body {
         display: grid;
-        grid-template-rows: .125fr 1fr .5fr;
-        justify-content: center;
-        align-content: stretch;
-        justify-items: stretch;
+        height: 100%;
         font-family: 'Open sans', Arial, Helvetica, sans-serif;
 
         header {
             padding: 2rem 2rem 0 2rem;
-            
-            .picture {
                 
-                .huddle-logo {
-                    width: 50%;
-                    transition: 0.5s;
+            .huddle-logo {
+                width: 50%;
+                transition: 0.5s;
+                
+                @media only screen and (min-width: 448px) {
+                    & {
+                        width: 52.5%;
+                    }
                 }
+                @media only screen and (min-width: 567px) {
+                    & {
+                        width: 55%;
+                    }
+                }
+                @media only screen and (min-width: 687px) {
+                    & {
+                        width: 57.5%;
+                    }
+                }
+                @media only screen and (min-width: 767px) {
+                    & {
+                        width: 30%;
+                    }
+                }
+                @media only screen and (min-width: 872px) {
+                    & {
+                        width: 32.5%;
+                    }
+                }
+            }
+            @media only screen and (min-width: 767px) {
+                margin-bottom: 1.5rem;
             }
         }
 
@@ -28,15 +51,41 @@ html {
             padding: 2rem;
             transition: 0.5s;
             .container {
-                
                 .picture {
-                    
+                    display: grid;
+
                     .mockup-hero {
                         width: 100%;
+                        margin: auto auto 3rem;
                         height: auto;
-                        margin-bottom: 2rem;
+                        
+                        @media only screen and (min-width: 448px) {
+                            & {
+                                width: 90%;
+                            }
+                        }
+                        @media only screen and (min-width: 576px) {
+                            & {
+                                width: 80%;
+                            }
+                        }
+                        @media only screen and (min-width: 687px) {
+                            & {
+                                width: 70%;
+                            }
+                        }
+                        @media only screen and (min-width: 767px) {
+                            & {
+                                width: 80%;
+                            }
+                        }
+                        @media only screen and (min-width: 872px) {
+                            & {
+                                width: 85%;
+                            }
+                        }
                     }
-                }
+                }    
 
                 .content {
                     color: #fff;
@@ -47,6 +96,32 @@ html {
                         font-size: 1.5rem;
                         font-weight: weight(semi-bold);
                         margin-bottom: 1rem;
+                    
+                        @media only screen and (min-width: 448px) {
+                            & {
+                                font-size: 1.75rem;
+                            }
+                        }
+                        @media only screen and (min-width: 576px) {
+                            & {
+                                font-size: 1.875rem;
+                            }                            
+                        }
+                        @media only screen and (min-width: 687px) {
+                            & {
+                                font-size: 2rem;
+                            }                            
+                        }
+                        @media only screen and (min-width: 767px) {
+                            & {
+                                font-size: 1.5rem;
+                            }
+                        }
+                        @media only screen and (min-width: 872px) {
+                            & {
+                                font-size: 1.75rem;
+                            }
+                        }
                     }
 
                     .text {
@@ -54,6 +129,41 @@ html {
                         color: #f2f2f2;
                         font-size: 1.125rem;
                         margin-bottom: 2rem;
+
+                        @media only screen and (min-width: 448px) {
+                            & {
+                                padding-left: 2rem;
+                                padding-right: 2rem;
+                            }
+                        }
+                        @media only screen and (min-width: 576px) {
+                            & {
+                                padding-left: 2.5rem;
+                                padding-right: 2.5rem;                              
+                                font-size: 1.25rem;
+                            }
+                        }
+                        @media only screen and (min-width: 687px) {
+                            & {
+                                padding-left: 2.75rem;
+                                padding-right: 2.75rem;                              
+                                font-size: 1.5rem;
+                            }
+                        }
+                        @media only screen and (min-width: 767px) {
+                            & {
+                                font-size: 1rem;
+                                padding-left: .25rem;
+                                padding-right: .25rem;
+                            }
+                        }
+                        @media only screen and (min-width: 872px) {
+                            & {
+                                font-size: 1.125rem;
+                                padding-left: .375rem;
+                                padding-right: .375rem;
+                            }
+                        }
                     }
 
                     .btn {
@@ -71,12 +181,34 @@ html {
                                 color: #fff;
                             }
                         }
+                        @media only screen and (min-width: 576px) {
+                            & {
+                                font-size: 1.25rem;
+                            }
+                        }
+                        @media only screen and (min-width: 687px) {
+                            & {
+                                font-size: 1.5rem;
+                            }
+                        }
+                        @media only screen and (min-width: 767px) {
+                            & {
+                                font-size: 1rem;
+                            }
+                        }
+                        @media only screen and (min-width: 872px) {
+                            & {
+                                font-size: 1.125rem;
+                            }
+                        }
                     }
                 }
             }
         }
 
         footer {
+            height: fit-content;
+            padding-bottom: 1rem;
 
             .social-media {
 
@@ -100,12 +232,26 @@ html {
                         }
                     }
                 }
+
+                @media only screen and (min-width: 767px) {
+                    & {
+                        margin-right: 1.875rem
+                    }
+                }
+                @media only screen and (min-width: 872px) {
+                    & {
+                        margin-right: 2rem;
+                    }
+                }
             }
         }
     }
     
-    @media only screen and (min-width: 576px) {
-        
+    @media only screen and (min-width: 767px) {
+        background-image: url("../images/bg-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;       
+
         body {
 
             main {
@@ -122,21 +268,22 @@ html {
                     .content {
                         padding: 20px;
                         grid-column: 2 / 3;
-
-                        .title {
-                            font-size: 1rem;
-                        }
                     }
                 }
             }
         }
         footer {
-            
+            display: flex;
+            flex-direction: row-reverse;
             .social-media {
             
                 ul {
-                    justify-content: flex-end;
+                    justify-self: flex-end;
                 }
+            }
+            .attribution {
+                align-self: center;
+                padding-right: 3rem;
             }
         }
     }

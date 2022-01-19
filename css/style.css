@@ -18,44 +18,123 @@ html {
 /* line 7, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body {
   display: grid;
-  grid-template-rows: .125fr 1fr .5fr;
-  justify-content: center;
-  align-content: stretch;
-  justify-items: stretch;
+  height: 100%;
   font-family: 'Open sans', Arial, Helvetica, sans-serif;
 }
 
-/* line 15, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 12, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body header {
   padding: 2rem 2rem 0 2rem;
 }
 
-/* line 20, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
-html body header .picture .huddle-logo {
+/* line 15, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+html body header .huddle-logo {
   width: 50%;
   transition: 0.5s;
 }
 
-/* line 27, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+@media only screen and (min-width: 448px) {
+  /* line 20, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body header .huddle-logo {
+    width: 52.5%;
+  }
+}
+
+@media only screen and (min-width: 567px) {
+  /* line 25, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body header .huddle-logo {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 687px) {
+  /* line 30, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body header .huddle-logo {
+    width: 57.5%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 35, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body header .huddle-logo {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 872px) {
+  /* line 40, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body header .huddle-logo {
+    width: 32.5%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 12, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body header {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* line 50, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main {
   padding: 2rem;
   transition: 0.5s;
 }
 
-/* line 34, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
-html body main .container .picture .mockup-hero {
-  width: 100%;
-  height: auto;
-  margin-bottom: 2rem;
+/* line 54, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+html body main .container .picture {
+  display: grid;
 }
 
-/* line 41, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 57, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+html body main .container .picture .mockup-hero {
+  width: 100%;
+  margin: auto auto 3rem;
+  height: auto;
+}
+
+@media only screen and (min-width: 448px) {
+  /* line 63, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .picture .mockup-hero {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /* line 68, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .picture .mockup-hero {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 687px) {
+  /* line 73, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .picture .mockup-hero {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 78, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .picture .mockup-hero {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 872px) {
+  /* line 83, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .picture .mockup-hero {
+    width: 85%;
+  }
+}
+
+/* line 90, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main .container .content {
   color: #fff;
   text-align: center;
 }
 
-/* line 45, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 94, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main .container .content .title {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
@@ -63,7 +142,42 @@ html body main .container .content .title {
   margin-bottom: 1rem;
 }
 
-/* line 52, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+@media only screen and (min-width: 448px) {
+  /* line 101, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .title {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /* line 106, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .title {
+    font-size: 1.875rem;
+  }
+}
+
+@media only screen and (min-width: 687px) {
+  /* line 111, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 116, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 872px) {
+  /* line 121, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .title {
+    font-size: 1.75rem;
+  }
+}
+
+/* line 127, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main .container .content .text {
   font-weight: 400;
   color: #f2f2f2;
@@ -71,7 +185,51 @@ html body main .container .content .text {
   margin-bottom: 2rem;
 }
 
-/* line 59, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+@media only screen and (min-width: 448px) {
+  /* line 134, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /* line 140, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .text {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 687px) {
+  /* line 147, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .text {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 154, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .text {
+    font-size: 1rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+  }
+}
+
+@media only screen and (min-width: 872px) {
+  /* line 161, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .text {
+    font-size: 1.125rem;
+    padding-left: .375rem;
+    padding-right: .375rem;
+  }
+}
+
+/* line 169, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main .container .content .btn {
   text-decoration: none;
   padding: 10px 75px;
@@ -79,19 +237,53 @@ html body main .container .content .btn {
   transition: 0.3s;
 }
 
-/* line 65, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 175, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main .container .content .btn.btn-primary {
   color: #674baf;
   background-color: #fff;
 }
 
-/* line 69, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 179, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body main .container .content .btn.btn-primary:hover, html body main .container .content .btn.btn-primary:active {
   background-color: #e882e8;
   color: #fff;
 }
 
-/* line 83, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+@media only screen and (min-width: 576px) {
+  /* line 185, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .btn {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 687px) {
+  /* line 190, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 195, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 872px) {
+  /* line 200, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body main .container .content .btn {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 209, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+html body footer {
+  height: fit-content;
+  padding-bottom: 1rem;
+}
+
+/* line 215, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body footer .social-media ul {
   display: flex;
   list-style: none;
@@ -99,50 +291,76 @@ html body footer .social-media ul {
   transition: 0.5s;
 }
 
-/* line 89, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 221, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body footer .social-media ul li {
   margin: 12.5px;
 }
 
-/* line 92, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 224, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body footer .social-media ul li img {
   padding: 5px;
   border: 1px solid #fff;
   border-radius: 50%;
 }
 
-/* line 97, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+/* line 229, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
 html body footer .social-media ul li img:hover, html body footer .social-media ul li img:active {
   filter: invert(30%) sepia(87%) saturate(7491%) hue-rotate(315deg) brightness(97%) contrast(119%);
 }
 
-@media only screen and (min-width: 576px) {
-  /* line 111, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+@media only screen and (min-width: 767px) {
+  /* line 237, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body footer .social-media {
+    margin-right: 1.875rem;
+  }
+}
+
+@media only screen and (min-width: 872px) {
+  /* line 242, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html body footer .social-media {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* line 1, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html {
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 257, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
   html body main {
     padding: 5px;
   }
-  /* line 114, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  /* line 260, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
   html body main .container {
     display: grid;
     grid-template-columns: .8fr .7fr;
     gap: 0 5px;
   }
-  /* line 119, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  /* line 265, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
   html body main .container .mockup-hero {
     grid-column: 1 / 2;
   }
-  /* line 122, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  /* line 268, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
   html body main .container .content {
     padding: 20px;
     grid-column: 2 / 3;
   }
-  /* line 126, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
-  html body main .container .content .title {
-    font-size: 1rem;
+  /* line 275, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html footer {
+    display: flex;
+    flex-direction: row-reverse;
   }
-  /* line 137, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  /* line 280, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
   html footer .social-media ul {
-    justify-content: flex-end;
+    justify-self: flex-end;
+  }
+  /* line 284, ../../../Documents/CursoWeb/experimentos/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/scss/_base.scss */
+  html footer .attribution {
+    align-self: center;
+    padding-right: 3rem;
   }
 }
 
